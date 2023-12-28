@@ -80,8 +80,7 @@ class CodeReuse{
                 }
             }
         }
-
-        // Printing the resulting matrix
+        
         for (int[] row : finalMatrix) {
             for (int val : row) {
                 System.out.print(val + " ");
@@ -91,11 +90,5 @@ class CodeReuse{
 
         return finalMatrix;
     }
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        calculateStatistics(scanner);
-        scanner.close();
-    }
-
 }
     
